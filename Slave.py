@@ -8,6 +8,7 @@ import sys
 import time
 from datetime import datetime
 import platform
+import wx
 
 def Execute(command):
 	p = subprocess.Popen([command],stdout=subprocess.PIPE, stderr=subprocess.STDOUT , shell=True)
